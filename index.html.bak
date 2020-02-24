@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>ONLINE FOOD ORDERING SYSTEM</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<style>
+table { border-collapse: collapse; width: 100%;}
+th, td {text-align: left;padding: 8px;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Food Ordering System</a></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Text Link</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li><a href="#">Text Link</a></li>
+        <li class="last"><a href="#">Text Link</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container">
+    <!-- content body -->
+    <aside id="left_column">
+      <h2 class="title">Items Available</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Free Website Templates</a></li>
+          <li><a href="#">Free CSS Templates</a></li>
+          <li><a href="#">Free XHTML Templates</a></li>
+          <li><a href="#">Free Web Templates</a></li>
+          <li class="last"><a href="#">Free Website Layouts</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <!-- main content -->
+    <div id="content">
+      <!-- section 1 -->
+      <section>
+        <!-- article 1 -->
+        <article>
+          <h2><a href="#">Post Title</a></h2>
+          <table border="1" style="width: 100%;border-collapse: collapse;border: 1px solid black;tr:nth-child(even) {background-color: #f2f2f2;}">
+			<tr>
+				<th align="center">Name</th>
+				<th align="center">Address</th>
+				<th align="center">Phone Number</th>
+			</tr>
+
+			<tr>
+				<td>Name</td>
+				<td>Address</td>
+				<td>Phone Number</td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td>Address</td>
+				<td>Phone Number</td>
+			</tr>
+
+		  </table>
+        </article>
+    </div>
+    <!-- / content body -->
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>
